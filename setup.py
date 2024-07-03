@@ -9,7 +9,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 requirements = (
     'wheel',
     'numpy',
-    'psycopg2',
+    'psycopg2-binary',
     'pyproj',
     'pywavefront',
     'pyyaml',
@@ -69,7 +69,7 @@ setup(
     author='Université de Lyon',
     author_email='contact@liris.cnrs.fr',
     license='Apache License Version 2.0',
-    python_requires=">=3.8,<=3.11",
+    python_requires=">=3.8,<3.12",
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
